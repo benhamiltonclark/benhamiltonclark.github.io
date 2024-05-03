@@ -12,6 +12,7 @@
 
     <link href="portfolio.css" rel="stylesheet">
     <link href="light-mode-toggle.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/Smiley.png">
   </head>
   <body>
     <header>
@@ -30,7 +31,7 @@
             </div>
           </li>
           <li><a href="https://1drv.ms/w/s!AqFIwgj4Ayuqlk1qSwrIz5eiIOq2?e=PdIFe4" target="_blank">Resume</a></li>
-          <li><a href="#recent-work">Work</a></li>
+          <li><a href="#my-projects">Projects</a></li>
           <li><a href="mailto:benhamiltonclark@gmail.com">Contact</a></li>
         </ul>
       </nav>
@@ -40,38 +41,116 @@
       <div>
         <h2>Hello World! My name is Ben Clark. I'm an aspiring software developer based in Washington D.C.</h2>
         <p>I have been coding for a few years, I love solving challenging problems, I'm passionate about python, and I do C# when I have to ;)</p>
-        <p>In my free time I enjoy working as an autism therapist, taking my maniac dog on long runs, playing my bagpipes, and cooking pizza or tacos! I have been known to row across an ocean, but if you really want to get to know me, ask me about my convictions about not matching socks.</p>
         <a class='btn' href="https://github.com/Missster-Ben" target="none">See my work</a>
       </div>
     </section>
-    <section class="my-projects">
-      <h2 id="recent-work">Some of my Work</h2>
+    <section class="about-me">
+      <h2 class="section-header">About Me!</h2>
+      <div id="fun-facts">
+        <div>
+          <h3>Who am I?</h3>
+          <p>I'm a Jamaican American who was born and raised in India and Scotland. In my free time I enjoy working as an autism therapist, taking my manic dog on long runs, playing my bagpipes, and cooking pizza or tacos!</p>
+          <p>I have been known to row a rowboat across the Atlantic Ocean, but if you <em>really</em> want to get to know me, ask me about my convictions about the importance of not matching socks.</p>
+          <h3>These are a few of my favourite things</h3>
+          <ul>
+            <li>Volcanic rocks</li>
+            <li>Mixed vegetables</li>
+            <li>Bioluminescent water</li>
+            <li>Wool socks</li>
+            <li>Handwritten letters</li>
+            <li>Giving away umbrellas!</li>
+          </ul>
+        </div>
+      
+      <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 10</div>
+            <img src="images/slideshow/1.jpg" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 10</div>
+            <img src="images/slideshow/2.jpg" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 10</div>
+            <img src="images/slideshow/3.jpg" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 10</div>
+            <img src="images/slideshow/4.JPEG" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <img src="images/slideshow/5.JPEG" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <img src="images/slideshow/6.jpeg" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <img src="images/slideshow/7.JPEG" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <img src="images/slideshow/8.JPEG" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <img src="images/slideshow/9.JPEG" width="500px">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <img src="images/slideshow/10.JPEG" width="500px">
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+      <br>
+    </section>
+    <section id="my-projects">
+      <h2 class="section-header">Some of my Work</h2>
       <article>
         <div>
-          <h3>DevOPS Caller</h3>
-          <p>A C# program to make all your troubles go away! It's great because I can put in a lot of filler jargon to impress the HR dude but unfortunately fail at testing the patience of the actual developer who reads this applicati0n.</p>
-          <p><strong>June 2021</strong></p>
+          <h3>DevOPS Project Effort Checker</h3>
+          <p>This streamlines agile developement. We were having to spend so much time checking, doublechecking, crosschecking, and doublecrossensureverifying that they had accurately allocated project effort. I built this to save time. I can't really think of a good picture to acompany this, so here's Eddie Redmayne. Nice casual summery suit here!</p>
           <ul>
-            <li>filler</li>
-            <li>filler</li>
+            <li>C#/.NET</li>
+            <li>Azure DevOps API</li>
+            <li>JSON Parsing</li>
           </ul>
-          <a class="btn" href="https://github.com/Missster-Ben/ThirdTimesTheCharm" target="_blank">GitHub repo</a>
+          <a class="btn" href="https://github.com/Missster-Ben/DevOpsEffortChecker" target="_blank">GitHub repo</a>
         </div>
-        <img class="article-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.8aYseqGDYC-PNqJTSgWQ3QHaHa%26pid%3DApi&f=1&ipt=983ce10b9e42e8a4c6bec798bbefe87c5aeb7f7d0a94c2a0d275f63168a92a17&ipo=images">
+        <img class="article-image" src="images/TanSuit.jpg">
       </article>
       <div class="article-seperator"></div>
       <article>
         <div>
-          <h3>New Portfolio Project!</h3>
-          <p>This definitely wont solve world hunger, but i'm optimistic about kids in south africa because of US Americans and such as and like so because of the way there arent maps in geography schools.</p>
-          <p><strong>September 2022</strong></p>
+          <h3>Ascii TicTacToe!</h3>
+          <p>This definitely won't solve world hunger. But hey! It's my first ever independent coding project! Again, no good pictures, so we have some more Redmayne. I guess he's switching the tan suit out for a more formal Tux.</p>
           <ul>
-            <li>I'm not sure yet,</li>
-            <li>but I'm hopeful that it will turn out well!</li>
+            <li>Python3</li>
+            <li>Ascii Board</li>
+            <li>Terminal Game</li>
           </ul>
-          <a class="btn">GitHub repo</a>
+          <a class="btn" href="https://github.com/Missster-Ben/tictactoe" target="_blank">GitHub repo</a>
         </div>
-        <img class="article-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.i-scmp.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F768x768%2Fpublic%2Fd8%2Fimages%2Fmethode%2F2019%2F06%2F11%2F42050a1e-8683-11e9-a9bc-e8ed9093c066_image_hires_102842.jpg%3Fitok%3DneGJsVS4%26v%3D1560220132&f=1&nofb=1">
+        <img class="article-image" src="images/Tuxedo.avif">
       </article>
     </section>
     <footer>
@@ -101,7 +180,6 @@
           </a>
         </li>
       </ul>
-      <p class="copyright">© 2022 Ben Clark</p>
     </footer>
     <script src="portfolio.js"></script>
   </body>
