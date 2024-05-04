@@ -173,6 +173,10 @@ footer .link-icon {
     flex-direction: column;
   }
 
+  #fun-facts {
+    flex-direction: column;
+  }
+
   .article-image {
     width: 100%;
     padding-top: 20px;
@@ -185,25 +189,17 @@ footer .link-icon {
   display: flex;
 }
 
-
-
-
-
 * {box-sizing:border-box}
 
-/* Slideshow container */
 .slideshow-container {
   position: relative;
-
   padding-left: 30px;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -219,18 +215,15 @@ footer .link-icon {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -241,7 +234,6 @@ footer .link-icon {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -250,7 +242,6 @@ footer .link-icon {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -266,7 +257,6 @@ footer .link-icon {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
